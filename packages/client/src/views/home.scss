@@ -1,0 +1,20 @@
+.container {
+  // padding: 20px;
+  height: 100%;
+  width: 100%;
+  // overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  header {
+    width: calc(100% - 40px);
+    margin: 20px;
+    background-color: #ccc;
+    text-align: center;
+  }
+
+  main {
+    flex: 1;
+    background-color: #999;
+  }
+}
+
